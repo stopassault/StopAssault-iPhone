@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -63,8 +63,22 @@
      */
 }
 
+/*- (void) recordVideo {
+    // set up the image picker controller and add it to the view
+    imagePickerController = [[UIImagePickerController alloc] init];
+    imagePickerController.mediaTypes = [NSArray arrayWithObject:(NSString *)kUTTypeMovie];
+    imagePickerController.delegate = self;
+    imagePickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [imagePickerController startVideoCapture];
+    
+    
+    //[self.window addSubview:imagePickerController.view];
+    //[self.window makeKeyAndVisible];
+
+}*/
+
 - (void)dealloc
-{
+{    
     [_window release];
     [_viewController release];
     [super dealloc];

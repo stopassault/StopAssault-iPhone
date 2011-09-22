@@ -19,6 +19,8 @@
 		75173E42142ADCD8007454BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75173E41142ADCD8007454BF /* icon.png */; };
 		75173E44142ADD79007454BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75173E43142ADD79007454BF /* Default.png */; };
 		75173E46142AE7DA007454BF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75173E45142AE7DA007454BF /* logo.png */; };
+		75173E48142AEF9E007454BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75173E47142AEF9E007454BF /* MobileCoreServices.framework */; };
+		75C578A7142AFE10003245D5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C578A6142AFE10003245D5 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		75173E41142ADCD8007454BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		75173E43142ADD79007454BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		75173E45142AE7DA007454BF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		75173E47142AEF9E007454BF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		75C578A6142AFE10003245D5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C578A7142AFE10003245D5 /* AssetsLibrary.framework in Frameworks */,
+				75173E48142AEF9E007454BF /* MobileCoreServices.framework in Frameworks */,
 				75173E22142ADB2F007454BF /* UIKit.framework in Frameworks */,
 				75173E24142ADB2F007454BF /* Foundation.framework in Frameworks */,
 				75173E26142ADB2F007454BF /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +81,8 @@
 		75173E20142ADB2F007454BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75C578A6142AFE10003245D5 /* AssetsLibrary.framework */,
+				75173E47142AEF9E007454BF /* MobileCoreServices.framework */,
 				75173E21142ADB2F007454BF /* UIKit.framework */,
 				75173E23142ADB2F007454BF /* Foundation.framework */,
 				75173E25142ADB2F007454BF /* CoreGraphics.framework */,
@@ -293,6 +301,7 @@
 				75173E40142ADB2F007454BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

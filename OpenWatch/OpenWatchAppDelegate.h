@@ -10,10 +10,12 @@
 
 @class OpenWatchViewController;
 
-@interface OpenWatchAppDelegate : NSObject <UIApplicationDelegate>
+@interface OpenWatchAppDelegate : NSObject <UIApplicationDelegate> {
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet OpenWatchViewController *viewController;
+
+- (void) recordVideo;
 
 @end
