@@ -10,4 +10,5 @@
 
 @interface OpenWatchViewController : UIViewController
 
+- (IBAction)onRecordVideo:(id)sender;
 @end

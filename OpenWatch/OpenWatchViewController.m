@@ -41,4 +41,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)onRecordVideo:(id)sender {
+    NSLog(@"onRecordVideo start");
+}
+
 @end
