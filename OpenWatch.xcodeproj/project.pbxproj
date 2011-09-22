@@ -16,6 +16,8 @@
 		75173E35142ADB2F007454BF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75173E33142ADB2F007454BF /* MainWindow.xib */; };
 		75173E38142ADB2F007454BF /* OpenWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75173E37142ADB2F007454BF /* OpenWatchViewController.m */; };
 		75173E3B142ADB2F007454BF /* OpenWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75173E39142ADB2F007454BF /* OpenWatchViewController.xib */; };
+		75173E42142ADCD8007454BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75173E41142ADCD8007454BF /* icon.png */; };
+		75173E44142ADD79007454BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75173E43142ADD79007454BF /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,18 @@
 		75173E21142ADB2F007454BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75173E23142ADB2F007454BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75173E25142ADB2F007454BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75173E29142ADB2F007454BF /* OpenWatch-Info.plist */ = {isa = PBXFileReference; path = "OpenWatch-Info.plist"; sourceTree = "<group>"; };
+		75173E29142ADB2F007454BF /* OpenWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenWatch-Info.plist"; sourceTree = "<group>"; };
 		75173E2B142ADB2F007454BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75173E2D142ADB2F007454BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75173E2F142ADB2F007454BF /* OpenWatch-Prefix.pch */ = {isa = PBXFileReference; path = "OpenWatch-Prefix.pch"; sourceTree = "<group>"; };
-		75173E30142ADB2F007454BF /* OpenWatchAppDelegate.h */ = {isa = PBXFileReference; path = OpenWatchAppDelegate.h; sourceTree = "<group>"; };
+		75173E2F142ADB2F007454BF /* OpenWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenWatch-Prefix.pch"; sourceTree = "<group>"; };
+		75173E30142ADB2F007454BF /* OpenWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenWatchAppDelegate.h; sourceTree = "<group>"; };
 		75173E31142ADB2F007454BF /* OpenWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWatchAppDelegate.m; sourceTree = "<group>"; };
 		75173E34142ADB2F007454BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		75173E36142ADB2F007454BF /* OpenWatchViewController.h */ = {isa = PBXFileReference; path = OpenWatchViewController.h; sourceTree = "<group>"; };
+		75173E36142ADB2F007454BF /* OpenWatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenWatchViewController.h; sourceTree = "<group>"; };
 		75173E37142ADB2F007454BF /* OpenWatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWatchViewController.m; sourceTree = "<group>"; };
 		75173E3A142ADB2F007454BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenWatchViewController.xib; sourceTree = "<group>"; };
+		75173E41142ADCD8007454BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		75173E43142ADD79007454BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		75173E28142ADB2F007454BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75173E43142ADD79007454BF /* Default.png */,
+				75173E41142ADCD8007454BF /* icon.png */,
 				75173E29142ADB2F007454BF /* OpenWatch-Info.plist */,
 				75173E2A142ADB2F007454BF /* InfoPlist.strings */,
 				75173E2D142ADB2F007454BF /* main.m */,
@@ -151,6 +157,8 @@
 				75173E2C142ADB2F007454BF /* InfoPlist.strings in Resources */,
 				75173E35142ADB2F007454BF /* MainWindow.xib in Resources */,
 				75173E3B142ADB2F007454BF /* OpenWatchViewController.xib in Resources */,
+				75173E42142ADCD8007454BF /* icon.png in Resources */,
+				75173E44142ADD79007454BF /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -233,7 +241,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
